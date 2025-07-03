@@ -5,12 +5,15 @@ const Hero = () => {
     <section className="relative bg-gradient-to-br from-gray-900 via-purple-900 to-gray-800 text-white min-h-[70vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 gap-10">
       {/* Left: Text Content */}
       <div className="flex-1 flex flex-col items-start justify-center z-10">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">TECH AT HAND</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          SECURITY REDEFINED
+        </h1>
         <p className="text-lg md:text-2xl mb-8 max-w-md">
-          Experience innovation & comfort with the new Timevo Smartwatch.
+          Discover the next generation of smart cameras—modern, secure, and
+          packed with advanced features for your peace of mind.
         </p>
         <button className="bg-purple-600 hover:bg-purple-700 transition px-8 py-3 rounded-full text-lg font-semibold shadow-lg">
-          Shop Now
+          Explore Camera
         </button>
       </div>
       {/* Right: Product Image */}
@@ -19,7 +22,7 @@ const Hero = () => {
           {/* Replace src with your product image */}
           <img
             src="/globe.svg"
-            alt="Timevo Smartwatch"
+            alt="Modern Security Camera"
             className="w-3/4 h-3/4 object-contain drop-shadow-xl"
           />
         </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 
 const features = [
-  'Extended Battery Life',
-  'Microphone, Call, Track, Volume',
-  'Seamless Connectivity',
-  'Secure: Noise cancellation',
-  'IPX4 Sweat and Splash Resistant',
+  '4K Ultra HD Video',
+  'Advanced Night Vision',
+  'Real-Time Motion Detection',
+  'Two-Way Audio Communication',
+  'Secure Cloud Storage',
 ];
 
 const Features = () => {
@@ -27,7 +27,7 @@ const Features = () => {
       <div className="flex-1 flex items-center justify-center">
         <img
           src="/globe.svg"
-          alt="Timevo Smartwatch Features"
+          alt="Modern Security Camera Features"
           className="w-[250px] h-[250px] md:w-[350px] md:h-[350px] object-contain drop-shadow-xl"
         />
       </div>

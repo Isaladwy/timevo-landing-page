@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
 import BuiltToLast from './components/BuiltToLast/BuiltToLast';
-import Workouts from './components/Workouts/Workouts';
+import HowItWorks from './components/HowItWorks/HowItWorks';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <Hero />
         <Features />
         <BuiltToLast />
-        <Workouts />
+        <HowItWorks />
       </main>
     </div>
   );
