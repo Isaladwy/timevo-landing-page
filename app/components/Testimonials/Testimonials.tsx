@@ -2,23 +2,23 @@ import React from 'react';
 
 const testimonials = [
   {
-    name: 'Alice W.',
+    name: 'علياء و.',
     review:
-      'The camera was easy to set up and the night vision is crystal clear. I feel much safer now!',
+      'الكاميرا سهلة التركيب والرؤية الليلية واضحة جدًا. أشعر بالأمان أكثر الآن!',
     rating: 5,
     avatar: '🧑‍🦰',
   },
   {
-    name: 'Brian K.',
+    name: 'باسل ك.',
     review:
-      'Motion alerts work perfectly and I love being able to check in from my phone anytime.',
+      'تنبيهات الحركة تعمل بشكل ممتاز وأحببت إمكانية المتابعة من هاتفي في أي وقت.',
     rating: 5,
     avatar: '🧔',
   },
   {
-    name: 'Sophie L.',
+    name: 'سارة ل.',
     review:
-      'Great value for the price. The cloud storage and two-way audio are super useful!',
+      'قيمة رائعة مقابل السعر. التخزين السحابي والصوت ثنائي الاتجاه مفيدان جدًا!',
     rating: 4,
     avatar: '👩‍🦱',
   },
@@ -26,9 +26,12 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="w-full py-20 px-4 md:px-24 bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900 flex flex-col items-center">
+    <section
+      dir="rtl"
+      className="w-full py-20 px-4 md:px-24 bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900 flex flex-col items-center"
+    >
       <h2 className="text-3xl md:text-4xl font-bold mb-14 text-center text-orange-400 drop-shadow-lg">
-        What Our Customers Say
+        آراء عملائنا
       </h2>
       <div className="flex flex-col md:flex-row gap-10 w-full max-w-5xl justify-center items-stretch">
         {testimonials.map((t, idx) => (

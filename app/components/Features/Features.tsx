@@ -2,20 +2,23 @@ import Image from 'next/image';
 import React from 'react';
 
 const features = [
-  '4K Ultra HD Video',
-  'Advanced Night Vision',
-  'Real-Time Motion Detection',
-  'Two-Way Audio Communication',
-  'Secure Cloud Storage',
+  'فيديو بدقة 4K فائقة الوضوح',
+  'رؤية ليلية متقدمة',
+  'كشف الحركة في الوقت الحقيقي',
+  'اتصال صوتي ثنائي الاتجاه',
+  'تخزين سحابي آمن',
 ];
 
 const Features = () => {
   return (
-    <section className="w-full bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900 py-20 px-4 md:px-24 flex flex-col md:flex-row items-center justify-between gap-16">
+    <section
+      dir="rtl"
+      className="w-full bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900 py-20 px-4 md:px-24 flex flex-col md:flex-row items-center justify-between gap-16"
+    >
       {/* Left: Features List in a card */}
       <div className="flex-1 flex flex-col items-start bg-neutral-800 rounded-2xl shadow-2xl p-8 md:p-12 max-w-xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-orange-400 drop-shadow-lg">
-          Main Features
+          المميزات الرئيسية
         </h2>
         <ul className="space-y-6 text-lg md:text-xl mb-4 text-gray-200 w-full">
           {features.map((feature, idx) => (
@@ -36,7 +39,7 @@ const Features = () => {
             width={500}
             height={500}
             src="/PIR Motion Detection.webp"
-            alt="Modern Security Camera Features"
+            alt="ميزات كاميرا الأمان الحديثة"
             className="object-contain drop-shadow-2xl"
           />
         </div>

@@ -3,41 +3,44 @@ import React from 'react';
 const steps = [
   {
     icon: '📦',
-    title: 'Unbox Your Camera',
-    desc: 'Open the package and check all included accessories for your new security camera.',
+    title: 'افتح علبة الكاميرا',
+    desc: 'افتح العبوة وتأكد من جميع الملحقات المرفقة مع الكاميرا الأمنية الجديدة.',
     img: '/globe.svg',
   },
   {
     icon: '📶',
-    title: 'Connect to Wi-Fi',
-    desc: 'Power on the camera and connect it to your home Wi-Fi network using the mobile app.',
+    title: 'اتصل بشبكة الواي فاي',
+    desc: 'قم بتشغيل الكاميرا ووصّلها بشبكة الواي فاي المنزلية باستخدام تطبيق الجوال.',
     img: '/globe.svg',
   },
   {
     icon: '🛠️',
-    title: 'Mount & Position',
-    desc: 'Install the camera at your desired location for optimal coverage and security.',
+    title: 'ركّب الكاميرا في المكان المناسب',
+    desc: 'ثبّت الكاميرا في الموقع الذي تريده لتغطية مثالية وحماية أفضل.',
     img: '/globe.svg',
   },
   {
     icon: '📱',
-    title: 'Configure in App',
-    desc: 'Customize settings, set up alerts, and view live footage directly from your smartphone.',
+    title: 'اضبط الإعدادات عبر التطبيق',
+    desc: 'خصص الإعدادات، فعّل التنبيهات، وراقب البث المباشر من هاتفك الذكي.',
     img: '/globe.svg',
   },
   {
-    icon: '🛡️',
-    title: 'Enjoy 24/7 Security',
-    desc: 'Relax knowing your property is protected with round-the-clock monitoring.',
+    icon: '��️',
+    title: 'استمتع بالأمان على مدار الساعة',
+    desc: 'اطمئن بأن ممتلكاتك محمية بمراقبة مستمرة على مدار 24/7.',
     img: '/globe.svg',
   },
 ];
 
 const HowItWorks = () => {
   return (
-    <section className="w-full py-20 px-2 sm:px-4 md:px-24 flex flex-col items-center bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900 relative overflow-hidden">
+    <section
+      dir="rtl"
+      className="w-full py-20 px-2 sm:px-4 md:px-24 flex flex-col items-center bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900 relative overflow-hidden"
+    >
       <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-orange-400 drop-shadow-lg tracking-wide">
-        How It Works
+        كيف تعمل الكاميرا
       </h2>
       <div className="relative flex flex-col md:flex-row w-full max-w-5xl mx-auto">
         {/* Vertical glowing line */}
@@ -62,7 +65,7 @@ const HowItWorks = () => {
               </div>
               {/* Timeline dot and line */}
               <div className="relative flex flex-col items-center md:w-16">
-                <span className="z-10 w-12 h-12 rounded-full bg-orange-500 shadow-[0_0_16px_4px_rgba(255,140,0,0.5)] flex items-center justify-center text-2xl font-bold border-4 border-orange-200">
+                <span className="z-10 w-8 h-8 rounded-full bg-orange-500 shadow-[0_0_16px_4px_rgba(255,140,0,0.5)] flex items-center justify-center text-2xl font-bold border-4 border-orange-200">
                   {step.icon}
                 </span>
                 {idx < steps.length - 1 && (

@@ -3,18 +3,21 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-neutral-900 via-neutral-950 to-neutral-900 text-white min-h-[80vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-24 py-24 gap-12 overflow-hidden">
+    <section
+      dir="rtl"
+      className="relative bg-gradient-to-br from-neutral-900 via-neutral-950 to-neutral-900 text-white min-h-[80vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-24 py-24 gap-12 overflow-hidden"
+    >
       {/* Left: Text Content */}
       <div className="flex-1 flex flex-col items-start justify-center z-10">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 text-orange-400 drop-shadow-lg tracking-tight">
-          SECURITY REDEFINED
+          الأمان كما يجب أن يكون
         </h1>
         <p className="text-xl md:text-2xl mb-10 max-w-lg text-gray-200">
-          Discover the next generation of smart cameras—modern, secure, and
-          packed with advanced features for your peace of mind.
+          اكتشف الجيل الجديد من الكاميرات الذكية — حديثة، آمنة، ومليئة بالميزات
+          المتقدمة لراحة بالك.
         </p>
         <button className="border-2 border-orange-500 text-orange-400 hover:bg-orange-500 hover:text-white transition px-10 py-4 rounded-full text-xl font-bold shadow-lg backdrop-blur-md">
-          Explore Camera
+          استكشف الكاميرا
         </button>
       </div>
       {/* Right: Product Image */}
@@ -23,7 +26,7 @@ const Hero = () => {
           <Image
             fill
             src="/LS-WS20L-20X.webp"
-            alt="Modern Security Camera"
+            alt="كاميرا أمان حديثة"
             className="w-3/4 h-3/4 object-contain drop-shadow-2xl"
           />
           {/* Glow effect */}
