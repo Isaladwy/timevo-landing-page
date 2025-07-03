@@ -37,7 +37,7 @@ const Features = () => {
             height={500}
             src="/PIR Motion Detection.webp"
             alt="Modern Security Camera Features"
-            className="w-3/4 h-3/4 object-contain drop-shadow-2xl"
+            className="object-contain drop-shadow-2xl"
           />
         </div>
       </div>

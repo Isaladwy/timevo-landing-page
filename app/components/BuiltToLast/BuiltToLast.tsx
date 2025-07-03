@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const BuiltToLast = () => {
@@ -6,10 +7,12 @@ const BuiltToLast = () => {
       {/* Image in a card */}
       <div className="flex-1 flex items-center justify-center mb-8 md:mb-0">
         <div className="bg-neutral-800 rounded-2xl shadow-2xl p-8 flex items-center justify-center w-[300px] h-[220px] md:w-[400px] md:h-[280px] border border-orange-400/20">
-          <img
-            src="/globe.svg"
+          <Image
+            width={400}
+            height={400}
+            src="/Battery.webp"
             alt="Durable Security Camera"
-            className="w-3/4 h-3/4 object-contain drop-shadow-2xl"
+            className=" object-contain drop-shadow-2xl"
           />
         </div>
       </div>
