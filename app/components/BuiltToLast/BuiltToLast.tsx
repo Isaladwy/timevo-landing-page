@@ -14,7 +14,7 @@ const BuiltToLast = () => {
       {/* Text */}
       <div className="flex-1 flex flex-col items-start justify-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Built To Last</h2>
-        <p className="text-lg md:text-xl text-gray-700 max-w-lg">
+        <p className="text-lg md:text-xl text-gray-300 max-w-lg">
           Crafted with premium materials, our security camera is engineered for
           durability and reliability. Weather-resistant and robust, it keeps
           your property protected in any condition.
