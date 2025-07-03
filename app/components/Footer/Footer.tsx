@@ -33,29 +33,7 @@ const Footer = () => {
           ))}
         </ul>
         {/* Social Media */}
-        <div className="flex gap-4 text-2xl">
-          <a
-            href="#"
-            aria-label="تويتر"
-            className="hover:text-orange-400 transition"
-          >
-            🐦
-          </a>
-          <a
-            href="#"
-            aria-label="فيسبوك"
-            className="hover:text-orange-400 transition"
-          >
-            📘
-          </a>
-          <a
-            href="#"
-            aria-label="انستجرام"
-            className="hover:text-orange-400 transition"
-          >
-            📸
-          </a>
-        </div>
+       
       </div>
       <div className="text-center text-sm text-gray-500 mt-6">
         &copy; {new Date().getFullYear()} جميع الحقوق محفوظة - كاميرات الرؤية
