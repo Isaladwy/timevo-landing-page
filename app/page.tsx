@@ -5,6 +5,7 @@ import BuiltToLast from './components/BuiltToLast/BuiltToLast';
 import HowItWorks from './components/HowItWorks/HowItWorks';
 import Testimonials from './components/Testimonials/Testimonials';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           <Testimonials />
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
