@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const BuiltToLast = () => {
@@ -5,8 +6,10 @@ const BuiltToLast = () => {
     <section className="w-full flex flex-col md:flex-row items-center justify-between gap-10 py-16 px-6 md:px-20 bg-neutral-900">
       {/* Image */}
       <div className="flex-1 flex items-center justify-center mb-8 md:mb-0">
-        <img
-          src="/globe.svg"
+        <Image
+          width={500}
+          height={500}
+          src="/Battery.webp"
           alt="Durable Security Camera"
           className="w-[300px] h-[200px] md:w-[400px] md:h-[250px] object-contain drop-shadow-2xl rounded-2xl"
         />
