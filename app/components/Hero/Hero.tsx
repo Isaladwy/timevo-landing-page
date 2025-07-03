@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Hero = () => {
@@ -19,8 +20,9 @@ const Hero = () => {
       {/* Right: Product Image */}
       <div className="flex-1 flex items-center justify-center z-10">
         <div className="w-[320px] h-[320px] md:w-[420px] md:h-[420px] bg-white/5 backdrop-blur-lg rounded-3xl flex items-center justify-center shadow-2xl border border-orange-400/30 relative">
-          <img
-            src="/globe.svg"
+          <Image
+            fill
+            src="/LS-WS20L-20X.webp"
             alt="Modern Security Camera"
             className="w-3/4 h-3/4 object-contain drop-shadow-2xl"
           />
