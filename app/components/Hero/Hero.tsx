@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-neutral-900 via-orange-900 to-neutral-800 text-white min-h-[70vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 gap-10">
+    <section className="relative bg-gradient-to-br from-neutral-900 via-orange-400 to-neutral-800 text-white min-h-[70vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 gap-10">
       {/* Left: Text Content */}
       <div className="flex-1 flex flex-col items-start justify-center z-10">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-orange-400">

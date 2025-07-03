@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
 import BuiltToLast from './components/BuiltToLast/BuiltToLast';
 import HowItWorks from './components/HowItWorks/HowItWorks';
+import Testimonials from './components/Testimonials/Testimonials';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Features />
         <BuiltToLast />
         <HowItWorks />
+        <Testimonials />
       </main>
     </div>
   );
