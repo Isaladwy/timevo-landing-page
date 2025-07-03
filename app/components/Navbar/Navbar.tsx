@@ -18,7 +18,7 @@ const Navbar = () => {
         {/* Site Name/Logo */}
         <Link
           href="#hero"
-          className="text-2xl font-extrabold text-orange-400 tracking-tight select-none"
+          className="md:text-2xl text-xl font-extrabold text-orange-400 tracking-tight select-none"
         >
           كاميرات الرؤية
         </Link>
