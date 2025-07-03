@@ -26,12 +26,12 @@ const Navbar = () => {
         <ul className="flex gap-6 md:gap-10 items-center text-lg font-semibold">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <a
+              <Link
                 href={link.href}
                 className="text-gray-200 hover:text-orange-400 transition-colors duration-200 px-2 py-1 rounded"
               >
                 {link.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
