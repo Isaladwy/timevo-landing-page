@@ -30,18 +30,22 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section className="w-full py-20 px-4 md:px-24 bg-white flex flex-col items-center">
-      <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+    <section className="w-full py-20 px-4 md:px-24 bg-gray-50 flex flex-col items-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
         How It Works
       </h2>
-      <ol className="relative border-l-4 border-purple-600 max-w-2xl mx-auto">
+      <ol className="relative border-l-4 border-purple-300 max-w-2xl mx-auto">
         {steps.map((step, idx) => (
-          <li key={idx} className="mb-12 ml-6 last:mb-0">
+          <li key={idx} className="mb-12 ml-6 last:mb-0 relative">
             <span className="absolute -left-6 flex items-center justify-center w-12 h-12 bg-purple-600 rounded-full text-white text-2xl font-bold shadow-lg">
               {step.icon}
             </span>
-            <h3 className="text-xl font-semibold mb-1 mt-1">{step.title}</h3>
-            <p className="text-gray-600 mb-1">{step.desc}</p>
+            <div className="bg-white rounded-xl shadow-md p-6 ml-2">
+              <h3 className="text-lg md:text-xl font-semibold mb-1 mt-1 text-gray-800">
+                {step.title}
+              </h3>
+              <p className="text-gray-600 mb-1">{step.desc}</p>
+            </div>
           </li>
         ))}
       </ol>
