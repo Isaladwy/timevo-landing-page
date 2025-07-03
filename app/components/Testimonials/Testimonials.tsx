@@ -26,10 +26,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section
-      dir="rtl"
-      className="w-full py-20 "
-    >
+    <section dir="rtl" className="w-full py-20 ">
       <div className="max-w-7xl mx-auto w-full px-4 md:px-8 flex flex-col items-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-14 text-center text-orange-400 drop-shadow-lg">
           آراء عملائنا
