@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
+import BuiltToLast from './components/BuiltToLast/BuiltToLast';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Hero />
         <Features />
+        <BuiltToLast />
       </main>
     </div>
   );
