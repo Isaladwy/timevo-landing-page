@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const features = [
@@ -31,8 +32,10 @@ const Features = () => {
       {/* Right: Product Image in a card */}
       <div className="flex-1 flex items-center justify-center">
         <div className="bg-neutral-800 rounded-2xl shadow-2xl p-8 flex items-center justify-center w-[300px] h-[300px] md:w-[400px] md:h-[400px] border border-orange-400/20">
-          <img
-            src="/globe.svg"
+          <Image
+            width={500}
+            height={500}
+            src="/PIR Motion Detection.webp"
             alt="Modern Security Camera Features"
             className="w-3/4 h-3/4 object-contain drop-shadow-2xl"
           />
