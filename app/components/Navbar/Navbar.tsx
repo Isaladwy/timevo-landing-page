@@ -23,7 +23,7 @@ const Navbar = () => {
           كاميرات الرؤية
         </Link>
         {/* Nav Links */}
-        <ul className="flex gap-6 md:gap-10 items-center text-sm font-semibold">
+        <ul className="flex gap-6 md:gap-10 items-center text-sm md:text-2xl font-semibold">
           {navLinks.map((link) => (
             <li key={link.href}>
               <Link
