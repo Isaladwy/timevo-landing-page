@@ -1,22 +1,21 @@
-import Image from 'next/image';
 import React from 'react';
 
 const BuiltToLast = () => {
   return (
-    <section className="w-full flex flex-col md:flex-row items-center justify-between gap-10 py-16 px-6 md:px-20 bg-neutral-900">
-      {/* Image */}
+    <section className="w-full bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900 flex flex-col md:flex-row items-center justify-between gap-16 py-20 px-4 md:px-24">
+      {/* Image in a card */}
       <div className="flex-1 flex items-center justify-center mb-8 md:mb-0">
-        <Image
-          width={500}
-          height={500}
-          src="/Battery.webp"
-          alt="Durable Security Camera"
-          className="w-[300px] h-[200px] md:w-[400px] md:h-[250px] object-contain drop-shadow-2xl rounded-2xl"
-        />
+        <div className="bg-neutral-800 rounded-2xl shadow-2xl p-8 flex items-center justify-center w-[300px] h-[220px] md:w-[400px] md:h-[280px] border border-orange-400/20">
+          <img
+            src="/globe.svg"
+            alt="Durable Security Camera"
+            className="w-3/4 h-3/4 object-contain drop-shadow-2xl"
+          />
+        </div>
       </div>
       {/* Text */}
       <div className="flex-1 flex flex-col items-start justify-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-orange-400">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-orange-400 drop-shadow-lg">
           Built To Last
         </h2>
         <p className="text-lg md:text-xl text-gray-200 max-w-lg">

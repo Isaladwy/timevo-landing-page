@@ -62,7 +62,7 @@ const HowItWorks = () => {
               </div>
               {/* Timeline dot and line */}
               <div className="relative flex flex-col items-center md:w-16">
-                <span className="z-10 w-8 h-8 rounded-full bg-orange-500 shadow-[0_0_16px_4px_rgba(255,140,0,0.5)] flex items-center justify-center text-2xl font-bold border-4 border-orange-200">
+                <span className="z-10 w-12 h-12 rounded-full bg-orange-500 shadow-[0_0_16px_4px_rgba(255,140,0,0.5)] flex items-center justify-center text-2xl font-bold border-4 border-orange-200">
                   {step.icon}
                 </span>
                 {idx < steps.length - 1 && (
