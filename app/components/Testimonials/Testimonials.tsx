@@ -28,7 +28,7 @@ const Testimonials = () => {
   return (
     <section
       dir="rtl"
-      className="w-full py-20 bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900"
+      className="w-full py-20 "
     >
       <div className="max-w-7xl mx-auto w-full px-4 md:px-8 flex flex-col items-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-14 text-center text-orange-400 drop-shadow-lg">
@@ -38,7 +38,7 @@ const Testimonials = () => {
           {testimonials.map((t, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center bg-neutral-800 rounded-2xl shadow-2xl p-8 flex-1 min-w-[250px] max-w-sm mx-auto border border-orange-400/20"
+              className="flex flex-col items-center rounded-2xl  p-8 flex-1 min-w-[250px] max-w-sm mx-auto border border-orange-400/20"
             >
               <span className="text-5xl mb-6 rounded-full border-4 border-orange-400/40 shadow-lg p-2 bg-neutral-900">
                 {t.avatar}

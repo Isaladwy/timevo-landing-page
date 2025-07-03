@@ -13,11 +13,11 @@ const Features = () => {
   return (
     <section
       dir="rtl"
-      className="w-full bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900 py-20"
+      className="w-full  py-20"
     >
       <div className="max-w-7xl mx-auto w-full px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-16">
         {/* Left: Features List in a card */}
-        <div className="flex-1 flex flex-col items-start bg-neutral-800 rounded-2xl shadow-2xl p-8 md:p-12">
+        <div className="flex-1 flex flex-col items-start  rounded-2xl p-8 md:p-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-orange-400 drop-shadow-lg">
             المميزات الرئيسية
           </h2>
@@ -35,7 +35,7 @@ const Features = () => {
         </div>
         {/* Right: Product Image in a card */}
         <div className="flex-1 flex items-center justify-center">
-          <div className="bg-neutral-800 rounded-2xl shadow-2xl p-8 flex items-center justify-center w-[300px] h-[300px] md:w-[400px] md:h-[400px] border border-orange-400/20">
+          <div className="rounded-2xl p-8 flex items-center justify-center w-[300px] h-[300px] md:w-[400px] md:h-[400px] ">
             <Image
               width={500}
               height={500}

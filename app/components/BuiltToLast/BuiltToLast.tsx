@@ -5,12 +5,12 @@ const BuiltToLast = () => {
   return (
     <section
       dir="rtl"
-      className="w-full bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900 py-20"
+      className="w-full  py-20"
     >
       <div className="max-w-7xl mx-auto w-full px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-16">
         {/* Image in a card */}
         <div className="flex-1 flex items-center justify-center mb-8 md:mb-0">
-          <div className="bg-neutral-800 rounded-2xl shadow-2xl p-8 flex items-center justify-center w-[300px] h-[220px] md:w-[400px] md:h-[280px] border border-orange-400/20">
+          <div className=" rounded-2xl  p-8 flex items-center justify-center w-[300px] h-[220px] md:w-[400px] md:h-[280px]  ">
             <Image
               width={400}
               height={400}

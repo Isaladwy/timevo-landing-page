@@ -37,7 +37,7 @@ const HowItWorks = () => {
   return (
     <section
       dir="rtl"
-      className="w-full py-20 bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-900"
+      className="w-full py-20 "
     >
       <div className="max-w-7xl mx-auto w-full px-4 md:px-8 flex flex-col items-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-orange-400 drop-shadow-lg tracking-wide">
@@ -56,7 +56,7 @@ const HowItWorks = () => {
               >
                 {/* Step image */}
                 <div className="flex-1 flex justify-center items-center mb-6 md:mb-0">
-                  <div className="bg-neutral-800 rounded-2xl shadow-2xl p-6 flex items-center justify-center w-40 h-40 md:w-56 md:h-56">
+                  <div className=" rounded-2xl  p-6 flex items-center justify-center w-40 h-40 md:w-56 md:h-56">
                     <img
                       src={step.img}
                       alt={step.title}
@@ -75,7 +75,7 @@ const HowItWorks = () => {
                 </div>
                 {/* Step content */}
                 <div className="flex-1 flex flex-col justify-center items-center md:items-start">
-                  <div className="bg-neutral-800 rounded-xl shadow-lg p-6 w-full max-w-md">
+                  <div className=" rounded-xl p-6 w-full max-w-md">
                     <h3 className="text-lg md:text-xl font-semibold mb-2 text-orange-300 tracking-wide drop-shadow">
                       {step.title}
                     </h3>
