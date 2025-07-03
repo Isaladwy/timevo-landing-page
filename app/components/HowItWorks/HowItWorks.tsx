@@ -40,7 +40,7 @@ const HowItWorks = () => {
             key={idx}
             className="mb-8 sm:mb-12 ml-4 sm:ml-6 flex justify-center items-center last:mb-0 relative"
           >
-            <span className="absolute -left-6 top-6 sm:top-8 flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 bg-orange-500 rounded-full text-white text-xl sm:text-2xl font-bold shadow-lg">
+            <span className="absolute -left-9  sm:top-6 flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12  rounded-full text-white text-xl sm:text-2xl font-bold shadow-lg">
               {step.icon}
             </span>
             <div className="rounded-xl shadow-lg p-4 sm:p-6 ml-2 w-full bg-neutral-800">
