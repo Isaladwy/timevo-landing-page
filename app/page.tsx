@@ -24,9 +24,9 @@ export default function Home() {
         <div id="howitworks">
           <HowItWorks />
         </div>
-        <div id="testimonials">
+        {/* <div id="testimonials">
           <Testimonials />
-        </div>
+        </div> */}
       </main>
       <BuyNowButton />
       <Footer />
