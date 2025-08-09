@@ -2,10 +2,10 @@ import React from 'react';
 
 const links = [
   { href: '#hero', label: 'الرئيسية' },
-  { href: '#features', label: 'المميزات' },
-  { href: '#durability', label: 'المتانة' },
-  { href: '#howitworks', label: 'كيف تعمل' },
-  { href: '#testimonials', label: 'آراء العملاء' },
+  { href: '#features', label: 'المزايا' },
+  { href: '#durability', label: 'التحمّل والاعتمادية' },
+  { href: '#howitworks', label: 'كيف يعمل الأنتركم' },
+  { href: '#testimonials', label: 'آراء المستخدمين' },
 ];
 
 const Footer = () => {
@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
         {/* Site Name/Logo */}
         <div className="mb-4 md:mb-0 text-2xl font-extrabold text-orange-400 select-none">
-          كاميرات الرؤية
+          أنتركم ذكي
         </div>
         {/* Quick Links */}
         <ul className="flex flex-wrap gap-6 md:gap-10 text-lg font-semibold mb-4 md:mb-0">
@@ -33,10 +33,9 @@ const Footer = () => {
           ))}
         </ul>
         {/* Social Media */}
-       
       </div>
       <div className="text-center text-sm text-gray-500 mt-6">
-        &copy; {new Date().getFullYear()} جميع الحقوق محفوظة - كاميرات الرؤية
+        &copy; {new Date().getFullYear()} جميع الحقوق محفوظة - أنتركم ذكي
       </div>
     </footer>
   );

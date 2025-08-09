@@ -11,14 +11,14 @@ const Hero = () => {
         {/* Left: Text Content */}
         <div className="flex-1 flex flex-col items-start justify-center z-10">
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 text-orange-400 drop-shadow-lg tracking-tight">
-            الأمان كما يجب أن يكون
+            تواصل ذكي وآمن على باب منزلك
           </h1>
           <p className="text-xl md:text-2xl mb-10 max-w-lg text-gray-200">
-            اكتشف الجيل الجديد من الكاميرات الذكية — حديثة، آمنة، ومليئة
-            بالميزات المتقدمة لراحة بالك.
+            أنتركم حديث مع فيديو عالي الدقة، اتصال ثنائي الاتجاه، وفتح الباب عن
+            بُعد عبر التطبيق.
           </p>
           <button className="border-2 border-orange-500 text-orange-400 hover:bg-orange-500 hover:text-white transition px-10 py-4 rounded-full text-xl font-bold shadow-lg backdrop-blur-md">
-            استكشف الكاميرا
+            استكشف الأنتركم
           </button>
         </div>
         {/* Right: Product Image */}
@@ -26,8 +26,8 @@ const Hero = () => {
           <div className="w-[320px] h-[320px] md:w-[420px] md:h-[420px] bg-white/5 backdrop-blur-lg rounded-3xl flex items-center justify-center shadow-2xl border border-orange-400/30 relative">
             <Image
               fill
-              src="/LS-WS20L-20X.webp"
-              alt="كاميرا أمان حديثة"
+              src="/Light.webp"
+              alt="أنتركم ذكي حديث"
               className="w-3/4 h-3/4 object-contain drop-shadow-2xl"
             />
             {/* Glow effect */}

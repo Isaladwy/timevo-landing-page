@@ -2,10 +2,10 @@ import Link from 'next/link';
 import React from 'react';
 
 const navLinks = [
-  { href: '#features', label: 'المميزات' },
-  { href: '#durability', label: 'المتانة' },
-  { href: '#howitworks', label: 'كيف تعمل' },
-  { href: '#testimonials', label: 'آراء العملاء' },
+  { href: '#features', label: 'المزايا' },
+  { href: '#durability', label: 'التحمّل والاعتمادية' },
+  { href: '#howitworks', label: 'كيف يعمل الأنتركم' },
+  { href: '#testimonials', label: 'آراء المستخدمين' },
 ];
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
           href="#hero"
           className="md:text-2xl text-xs font-extrabold text-orange-400 tracking-tight select-none"
         >
-          كاميرات الرؤية
+          أنتركم ذكي
         </Link>
         {/* Nav Links */}
         <ul className="flex gap-6 md:gap-10 items-center justify-center text-xs md:text-2xl ">
